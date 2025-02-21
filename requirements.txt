@@ -27,19 +27,17 @@ Create requirements.txt: In the root directory of your project, create a file na
 
 Populate requirements.txt: Add the following dependencies to requirements.txt, one per line.  Specify versions if possible for better reproducibility.
 
-langchain>=0.1.17  # Or pin to a specific version: langchain==0.1.18
-llama-cpp-python>=0.1.77 # Or pin to a specific version: llama-cpp-python==0.1.78
-psycopg2-binary # For PostgreSQL interaction (if used)
-# Add other dependencies here (e.g., transformers, torch, etc.)
+langchain>=0.1.17  
+llama-cpp-python>=0.1.77 
+psycopg2-binary 
 Install: Use the following command in your terminal (make sure the virtual environment is activated if you created one):
-
 pip install -r requirements.txt
+
 4. Running the Chatbot
 After installing the dependencies, you can run the chatbot script.
+python chatbot.py 
 
-python chatbot.py  # Replace chatbot.py with the name of your main script
 5. Deactivating the Virtual Environment (When Finished)
 When you're done working on the project, deactivate the virtual environment.
-
 venv:
 deactivate
