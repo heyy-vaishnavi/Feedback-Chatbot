@@ -1,2 +1,14 @@
 # Feedback-Chatbot
-Feedback Chatbot is an AI-powered assistant designed to streamline the collection and analysis of feedback. It engages users in interactive conversations, gathering valuable insights on goals, products, services, or any topic.  This chatbot provides structured feedback, making it easy to identify trends, and make data-driven decisions.
+ LLM-based chatbot with memory that collects user information, processes it intelligently, and persists the data in a PostgreSQL database.
+
+ # Objectives
+ Interacts with users to capture their key goals and the relative importance (weightage) of these goals, then store the data in a PostgreSQL table.
+
+# Technologies Used
+Large Language Model (LLM): LlamaCpp <br>
+LLM Framework: LangChain (Python) <br>
+Database: PostgreSQL <br>
+Programming Language: Python <br>
+Conversation Memory: LangChain's ConversationBufferMemory <br>
+Model Format: GGUF (quantized) <br>
+Prompt Engineering: (Implicitly used for prompt creation) <br>
